@@ -1,0 +1,70 @@
+[
+  {
+    "ContainingType": "rexbridge_test.Controllers.PurchaseOrderController",
+    "Method": "GetAll",
+    "RelativePath": "api/PurchaseOrder",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "rexbridge_test.Controllers.PurchaseOrderController",
+    "Method": "Create",
+    "RelativePath": "api/PurchaseOrder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mstPurchaseOrderDto",
+        "Type": "rexbridge_test.Dtos.CreatePurchaseOrderRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "rexbridge_test.Controllers.PurchaseOrderController",
+    "Method": "GetByExpiryDate",
+    "RelativePath": "api/PurchaseOrder/by-expiry-date",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "startDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "rexbridge_test.Controllers.PurchaseOrderController",
+    "Method": "GetByOrderDate",
+    "RelativePath": "api/PurchaseOrder/by-order-date",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "startDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

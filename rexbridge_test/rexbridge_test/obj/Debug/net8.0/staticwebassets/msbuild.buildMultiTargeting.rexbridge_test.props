@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\rexbridge_test.props" />
+</Project>

@@ -1,0 +1,6 @@
+@rexbridge_test_HostAddress = http://localhost:5292
+
+GET {{rexbridge_test_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
